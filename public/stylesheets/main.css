@@ -187,6 +187,23 @@ html, body{
 
 }
 
+.buddy-video {
+  display: none;
+  background: #fff;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #fff;
+  padding: 0px;
+  width: 90%;
+  height: 90%;
+  cursor: hand;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 
 
 
