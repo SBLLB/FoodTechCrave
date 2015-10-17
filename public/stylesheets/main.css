@@ -35,7 +35,7 @@ html, body{
 }
 
 .recipes-row {
-  height: 20%;
+  height: 15%;
 }
 
 .friends-row {
@@ -49,11 +49,19 @@ html, body{
 }
 .tinder-image-row {
   height: 60%;
-  background-color: salmon;
+  background-color: #D84C4A;
 }
 .button-row {
-  height: 17%;
+  height: 12%;
 }
+.friends-title-row{
+  height: 7%;
+  padding-top: 5%;
+}
+.friends-pic-row {
+  height: 10%;
+}
+
 
 /*---------Tinder swiper-----------*/
 
@@ -147,7 +155,8 @@ html, body{
   display: inline-block;
   text-shadow: none;
   text-shadow: none;
-  text-align: cen
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .dislike-button {
@@ -162,6 +171,7 @@ html, body{
   display: inline-block;
   text-shadow: none;
   text-align: center;
+  font-size: 1.5em;
 }
 
 
@@ -183,7 +193,7 @@ html, body{
 }
 .active-selection {
   color: #818181;
-  border-bottom: 2px solid #EDC93A;
+  border-bottom: 3px solid #EDC93A;
 
 }
 
