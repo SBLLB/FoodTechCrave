@@ -53,7 +53,6 @@ html, body{
 }
 .button-row {
   height: 17%;
-  background-color: yellow;
 }
 
 /*---------Tinder swiper-----------*/
@@ -136,6 +135,34 @@ html, body{
   left: 40px;
   text-shadow: none;
 }
+.like-button {
+  margin-top:30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid green;
+  color: green;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  text-shadow: none;
+  text-shadow: none;
+  text-align: cen
+}
+
+.dislike-button {
+  margin-top:30px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 2px solid red;
+  color: red;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: relative;
+  display: inline-block;
+  text-shadow: none;
+  text-align: center;
+}
 
 
 .recipe-title {
@@ -149,8 +176,16 @@ html, body{
 }
 
 
+.food-selection {
+  padding-top: 10px;
+  color: #cdcdcd;
+  text-align: center;
+}
+.active-selection {
+  color: #818181;
+  border-bottom: 2px solid #EDC93A;
 
-
+}
 
 
 
