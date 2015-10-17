@@ -5,12 +5,12 @@ var path = require("path");
 app.use(express.static(path.join(__dirname + '/public')));
 
 
-app.get('/login', function (req, res) {
-  res.sendFile(path.join(__dirname+'/views/login.html'));
+app.get('/landing_page', function (req, res) {
+  res.sendFile(path.join(__dirname+'/views/index.html'));
 });
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname+'/views/index.html'));
+  res.sendFile(path.join(__dirname+'/views/login.html'));
 });
 
 app.get('/swipe', function (req, res) {

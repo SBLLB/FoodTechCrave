@@ -16,7 +16,8 @@ html, body{
 /*---------------Landing Page--------------------*/
 
 .index-page {
-  background-color: #D84C4A;
+  background-image: url("/images/cookbackground.png");
+  background-size: 800px 600px
 }
 .logo-row {
   height: 50%;
@@ -35,7 +36,7 @@ html, body{
 }
 
 .recipes-row {
-  height: 20%;
+  height: 15%;
 }
 
 .friends-row {
@@ -47,14 +48,36 @@ html, body{
 .food-selection-row {
   height: 8%;
 }
+
 .tinder-image-row {
   height: 60%;
-  background-color: salmon;
-}
-.button-row {
-  height: 17%;
+  background-color: #D84C4A;
 }
 
+.button-row {
+  height: 12%;
+}
+
+.friends-title-row{
+  height: 4%;
+  padding-top: 1%;
+  background-color: #f3f3f3;
+}
+
+.friends-pic-row {
+  height: 13%;
+  padding-top: 3%;
+  background-color: #f3f3f3;
+}
+
+.space-row {
+  height: 3%;
+}
+
+.friends-pic-row img {
+  height: 70%;
+  width: auto;
+}
 /*---------Tinder swiper-----------*/
 
 
@@ -147,7 +170,8 @@ html, body{
   display: inline-block;
   text-shadow: none;
   text-shadow: none;
-  text-align: cen
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .dislike-button {
@@ -162,6 +186,7 @@ html, body{
   display: inline-block;
   text-shadow: none;
   text-align: center;
+  font-size: 1.5em;
 }
 
 
@@ -183,7 +208,7 @@ html, body{
 }
 .active-selection {
   color: #818181;
-  border-bottom: 2px solid #EDC93A;
+  border-bottom: 3px solid #EDC93A;
 
 }
 
@@ -205,5 +230,51 @@ html, body{
 }
 
 
+.profile-img {
+  height: 100%;
+  width: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
+/*---------------------LOGIN SCREEN---------------------------*/
 
+.login-background {
+  background-color: #53B19C;
+}
+.light-box {
+  height: 40%;
+  margin-top: 130px;
+}
+.light-background {
+  height: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+.login-img {
+  width: 100%;
+  height: auto;
+}
+.logo-login {
+  width: 100%;
+  height: auto;
+}
+
+.cursive {
+  font-family: 'Poiret One', cursive;
+}
+
+.text-row {
+  height: 20%;
+}
+.logo-login-row {
+  height: 40%;
+}
+.login-row {
+  height: 20%;
+}
+
+.text-row p {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+}
