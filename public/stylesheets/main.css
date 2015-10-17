@@ -54,6 +54,12 @@ html, body{
   background-color: #D84C4A;
 }
 
+.recipe-image-row {
+  height: 40%;
+  background-color: #D84C4A;
+}
+
+
 .button-row {
   height: 12%;
 }
