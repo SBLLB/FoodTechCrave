@@ -11,8 +11,6 @@ html, body{
   width: 100%
 }
 
-
-
 /*---------------Landing Page--------------------*/
 
 .index-page {
@@ -52,6 +50,7 @@ html, body{
 .tinder-image-row {
   height: 60%;
   background-color: #D84C4A;
+  max-width:none;
 }
 
 .recipe-image-row {
@@ -100,6 +99,7 @@ html, body{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding:0;
 }
 .buddy {
   display: none;
@@ -108,6 +108,7 @@ html, body{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   color: #fff;
   padding: 20px;
+  margin: 0 5%;
   width: 90%;
   height: 90%;
   cursor: hand;
@@ -257,6 +258,7 @@ html, body{
   background-color: rgba(255,255,255,0.8);
 }
 .login-img {
+  max-width: 
   width: 100%;
   height: auto;
 }
@@ -287,4 +289,8 @@ html, body{
 
 .recipes {
   text-align: center;
+}
+
+.container, .container-fluid{
+  max-width: 800px;
 }
