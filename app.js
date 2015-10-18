@@ -21,6 +21,10 @@ app.get('/recipe', function (req, res) {
   res.sendFile(path.join(__dirname+'/views/recipe.html'));
 });
 
+app.get('/pics', function (req, res) {
+  res.sendFile(path.join(__dirname+'/views/pics.html'));
+});
+
 var server = app.listen((process.env.PORT || 3000), function () {
   var host = server.address().address;
   var port = server.address().port;

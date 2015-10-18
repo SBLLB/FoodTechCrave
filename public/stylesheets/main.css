@@ -54,7 +54,7 @@ html, body{
 }
 
 .recipe-image-row {
-  height: 60%;
+  height: 40%;
   background-color: #D84C4A;
 }
 
@@ -258,7 +258,6 @@ html, body{
   background-color: rgba(255,255,255,0.8);
 }
 .login-img {
-  max-width: 
   width: 100%;
   height: auto;
 }
@@ -293,4 +292,28 @@ html, body{
 
 .container, .container-fluid{
   max-width: 800px;
+}
+
+/*pics*/
+
+.thumb1 { 
+background: url(/images/granola1.jpg) 50% 50% no-repeat;
+/*width: 250px;*/
+height: 250px;
+}
+
+.thumb2 { 
+background: url(/images/granola2.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+/*width: 250px;*/
+height: 250px;
+}
+.thumb3 { 
+background: url(/images/granola3.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+/*width: 250px;*/
+height: 250px;
+}
+.thumb4{ 
+background: url(/images/granola4.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+/*width: 250px;*/
+height: 250px;
 }
