@@ -11,10 +11,14 @@ html, body{
   width: 100%
 }
 
+.container, .container-fluid{
+  max-width: 800px;
+}
+
 /*---------------Landing Page--------------------*/
 
 .index-page {
-  background-image: url("/images/cookbackground.png");
+  background-image: url("/images/bg.jpg");
   background-size: 800px 600px
 }
 .logo-row {
@@ -290,30 +294,12 @@ html, body{
   text-align: center;
 }
 
-.container, .container-fluid{
-  max-width: 800px;
+.reward-name {
+  margin: 10% 0;
 }
 
-/*pics*/
-
-.thumb1 { 
-background: url(/images/granola1.jpg) 50% 50% no-repeat;
-/*width: 250px;*/
-height: 250px;
-}
-
-.thumb2 { 
-background: url(/images/granola2.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-/*width: 250px;*/
-height: 250px;
-}
-.thumb3 { 
-background: url(/images/granola3.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-/*width: 250px;*/
-height: 250px;
-}
-.thumb4{ 
-background: url(/images/granola4.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-/*width: 250px;*/
-height: 250px;
+.reward {
+  padding-top: 5%;
+  font-size: 20px;
+  background-color: rgba(0,50,100,0.1);
 }

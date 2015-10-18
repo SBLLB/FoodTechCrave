@@ -25,6 +25,10 @@ app.get('/pics', function (req, res) {
   res.sendFile(path.join(__dirname+'/views/pics.html'));
 });
 
+app.get('/profile', function (req, res) {
+  res.sendFile(path.join(__dirname+'/views/profile.html'));
+});
+
 var server = app.listen((process.env.PORT || 3000), function () {
   var host = server.address().address;
   var port = server.address().port;
