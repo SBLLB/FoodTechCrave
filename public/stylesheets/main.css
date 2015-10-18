@@ -54,7 +54,7 @@ html, body{
 }
 
 .recipe-image-row {
-  height: 40%;
+  height: 60%;
   background-color: #D84C4A;
 }
 
@@ -139,7 +139,7 @@ html, body{
   display: block;
   background-size: 100% auto !important;
   background-position: center;
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 .like {
   border-radius: 5px;
